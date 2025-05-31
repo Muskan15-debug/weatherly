@@ -1,0 +1,63 @@
+/* Modern input wrapper for react-select */
+.css-13cymwt-control {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 12px !important;
+  padding: 4px 8px;
+  min-height: 50px !important;
+  font-family: 'Sora', sans-serif !important;
+  color: #ffffff !important;
+  transition: border 0.3s ease;
+}
+
+.css-13cymwt-control:hover {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.css-qbdosj-Input {
+  color: #ffffff !important;
+}
+
+.css-1jqq78o-placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 15px;
+}
+
+.css-1dimb5e-singleValue {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+/* Dropdown menu styling */
+.css-1nmdiq5-menu {
+  background: rgba(20, 20, 20, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  color: #fff !important;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.css-1n6sfyn-MenuList {
+  max-height: 200px;
+}
+
+.css-tr4s17-option {
+  background: transparent !important;
+  color: #eee !important;
+  font-weight: 400;
+  padding: 10px 16px !important;
+}
+
+.css-tr4s17-option:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  cursor: pointer;
+}
+
+/* Remove dropdown indicator */
+.css-1hb7zxy-IndicatorsContainer {
+  display: none;
+}
