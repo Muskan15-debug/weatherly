@@ -14,10 +14,10 @@ function App() {
     const [lat, lon] = searchData.value.split(" ");
 
     const currentWeatherFetch = fetch(
-      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=def79d221d48e18a74d13ba3bd8a6f77&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=[api_key]&units=metric`
     );
     const forecastFetch = fetch(
-      `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=def79d221d48e18a74d13ba3bd8a6f77&units=metric`
+      `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=[api_key]&units=metric`
     );
 
     Promise.all([currentWeatherFetch, forecastFetch])
